@@ -80,8 +80,11 @@ class _AccontPointsContent extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  'Entregar grátis: 15000pts',
+                Padding(
+                  padding: const EdgeInsets.only(left: 12),
+                  child: Text(
+                    'Entregar grátis: 15000pts',
+                  ),
                 ),
               ],
             )
@@ -96,9 +99,14 @@ class _AccontPointsContent extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  '1 mês de streaming:30000 pts',
+                Padding(
+                  padding: const EdgeInsets.only(left: 15),
+                  child: Text(
+                    '1 mês de streaming:30000 pts',
+                  ),
+                  
                 ),
+                
               ],
             )
           ],
