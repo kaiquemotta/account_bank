@@ -6,6 +6,8 @@ class ThemeColors {
   static const recentActivity = {
     'spent': Color.fromRGBO(255, 175, 29, 1.0),
     'income': Color.fromRGBO(191, 69, 198, 1.0),
+    'red': Color.fromRGBO(237, 26, 89, 1),
+    'purple': Color.fromRGBO(115, 77, 220, 1),
   };
   static const List<Color> headerGradient = [
     Color.fromRGBO(103, 99, 234, 1.0),

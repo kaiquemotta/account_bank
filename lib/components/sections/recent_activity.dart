@@ -2,10 +2,9 @@ import 'package:checkout_card/components/box_card.dart';
 import 'package:checkout_card/components/color_dot.dart';
 import 'package:checkout_card/components/content_division.dart';
 import 'package:checkout_card/themes/theme_colors.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
-
-import 'package:flutter/material.dart';
 
 class RecentActivity extends StatelessWidget {
   const RecentActivity({super.key});
