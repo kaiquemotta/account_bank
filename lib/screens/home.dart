@@ -8,6 +8,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
+import '../components/sections/investments.dart';
 import '../components/sections/my_banks.dart';
 
 class Home extends StatelessWidget {
@@ -17,15 +18,16 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: SingleChildScrollView(
-          child: Column(
-              children: <Widget>[
+      child: Column(
+        children: <Widget>[
           Header(),
           RecentActivity(),
           AccountActions(),
           AccountPoints(),
           MyBanks(),
-              ],
-            ),
-        ));
+          Investments(),
+        ],
+      ),
+    ));
   }
 }
